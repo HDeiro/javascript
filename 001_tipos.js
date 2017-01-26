@@ -2,6 +2,34 @@
     JavaScript é uma linguagem que possui tipagem dinâmica
     e, portanto, suas variáveis tem tipos definidos a partir
     do valor que referencia.
+
+    Os tipos primitivos da linguagem são:
+        - Number
+        - String
+        - Boolean
+        - Null
+        - Undefined
+
+    Há outros tipos que são interpretados como objetos:
+        - Objetos (duh?)
+        - Funções
+        - Arrays
+        - Regex
+
+    É importante ter em mente que os tipos passados por valor (primitivos) são imutáveis. 
+    Já os de referência (objetos) são mutáveis. 
+
+    Isso é comprovado a partir do momento em que você tenta comparar dois valores primitivos
+    e dois valores mutáveis.
+
+    Por exemplo: 10 === 10 resulta em true, enquanto {} === {} resultam em false (pois se referem)
+    a objetos diferentes.
+
+    Outra forma de verificar a referência é:
+        var a = {};
+        var b = a;
+        a.property = 'Any Value';
+        console.log(b.property);
 */
 
 //Declaração de variável
