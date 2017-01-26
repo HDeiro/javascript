@@ -30,3 +30,11 @@ console.log('05 ' + typeof a);
 a = [];
 
 console.log('06 ' + typeof a);
+
+a = null; //Referência de Objeto, mas se você tentar atribuir algum valor (tipo: a.propriedade = 10) vai dar erro.
+
+console.log('07 ' + typeof a);
+
+a = undefined;
+
+console.log('08 ' + typeof a);
