@@ -1,6 +1,13 @@
 /*
     Existem diversas funções do javascript
     para tratamento de strings
+
+    Strings em JavaScript são imutáveis. Ou seja,
+    quaisquer operações como replace, lower/upperCase
+    e afins demandam reatribuição à string. Se você
+    só chamar a função, ela retornará uma string, mas 
+    não irá alterar o estado da string utilizada para chamar
+    a função
 */
 
 var string = "JavaScript vai dominar o mundo!";
