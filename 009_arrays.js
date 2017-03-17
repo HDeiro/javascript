@@ -114,7 +114,7 @@ array_inteiros.sort(function(element_1, element_2) {
     else return 0; //Mantém a ordem
 });
 
-console.log('Sort', response);
+console.log('Sort', array_inteiros);
 
 //É possível unificar um array como uma string com a função join
 console.log('Join sem parâmetro', array_inteiros.join());
