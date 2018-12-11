@@ -1,8 +1,0 @@
-{
-    "Nome" : "Fulano da Silva",
-    "Idade": "33",
-    "contatos" : {
-        "email" : "fulano@teste.com",
-        "facebook" : "facebook.com/fulano"
-    }
-}
