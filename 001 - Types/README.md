@@ -31,7 +31,7 @@ console.log(b);
 
 In the example above, ```b``` will also have the property ```value``` even if you haven't declared it. It happens because ```b``` refers to the same object as ```a```.
 
-### Null VS Undefined
+#### Null VS Undefined
 
 Even if they look the same, the **Null** and the **Undefined** are completely different.
 
