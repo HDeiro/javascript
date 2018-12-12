@@ -22,7 +22,7 @@ As an example, we can check the it by comparison. If we check ```10 === 10``` it
 
 Anoter way to check the mutability of an object reference is:
 
-```
+```javascript
 var a = {};
 var b = a;
 a.value = 10;
