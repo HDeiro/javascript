@@ -68,3 +68,5 @@ function hoistingExample(list) {
     console.log(i);
 }
 ```
+
+One other way to prevent the hoisting effect is using the ```'use strict'``` in the beginning of the script. This way, some "weird" behaviors of JavaScript will be prevented (things like deletion of objects/variables/functions, overwrites on read-only properties and a lot of other stuff).
