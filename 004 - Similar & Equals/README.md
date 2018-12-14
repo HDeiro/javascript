@@ -24,7 +24,7 @@ P.S: ```document.all``` are false because it has been used for browser detection
 
 #### Similar comparation
 | == |true |false |0 |'' |null |undefined |NaN |Infinity |[] |{} |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | true |true |false |false |false |false |false |false |false |false |false |
 | false |false |true |true |true |false |false |false |false |true |false |
 | 0 |false |true |true |true |false |false |false |false |true |false |
@@ -39,7 +39,7 @@ P.S: ```document.all``` are false because it has been used for browser detection
 #### Equal comparation
 
 | === | true | false | 0 | '' | null | undefined | NaN | Infinity | [] | {} |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | true | true | false | false | false | false | false | false | false | false | false |
 | false | false | true | false | false | false | false | false | false | false | false |
 | 0 | false | false | true | false | false | false | false | false | false | false |
