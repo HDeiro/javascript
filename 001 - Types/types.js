@@ -42,3 +42,11 @@ console.log('Here, a is a ' + typeof a);
 a = Symbol("Hello :)");
 console.log('Here, a is a ' + typeof a);
 
+// Number
+a = NaN;
+console.log('Here, a is a ' + typeof a);
+
+// Number
+a = Infinity;
+console.log('Here, a is a ' + typeof a);
+
