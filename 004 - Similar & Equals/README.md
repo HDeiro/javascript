@@ -5,3 +5,19 @@ It's really commom the need to check if an value is equal to other one. But, con
 In JavaScript we have two ways to check the equality, the ```==``` (Similar) and ```===``` (Equal). The Similar symbol checks about the value equality. When we use the Equal symbol, we check the value and the type equality.
 
 The unequal follows the same rules. So, whe have ```!=``` and ```!==```.
+
+#### Truthy & Falsy evaluation
+
+When a value is placed to a context where is expected a boolean (an ```if()```, as an example), it will be coerced to a boolean value.
+
+Except for the following values, every other values will be coerced to true:
+
+- ```false```
+- ```null```
+- ```undefined```
+- ```0```
+- ```NaN```
+- ```''```
+- ```document.all```
+
+P.S: ```document.all``` are false because it has been used for browser detection a long time ago. Since EcmaScript 5, a method called ```ToBoolean()``` has been required to parse objects to the true value, but this implementation of ```document.all``` treats the object as undefined. So, the consequence is that this value is parsed to false. But don't worry, this is used only to **OLD** browsers.
