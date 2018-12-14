@@ -38,3 +38,7 @@ console.log('Here, a is a ' + typeof a);
 a = null;
 console.log('Here, a is a ' + typeof a);
 
+// Symbol
+a = Symbol("Hello :)");
+console.log('Here, a is a ' + typeof a);
+

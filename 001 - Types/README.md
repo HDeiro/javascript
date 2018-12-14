@@ -8,6 +8,7 @@ The primitive types of the language are:
  - Boolean
  - Null
  - Undefined
+ - Symbol
 
 Besides the primitive, there are other type of variables. They refer to a sort of things but are interpreted as objects.
  - Objects
