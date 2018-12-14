@@ -65,7 +65,7 @@ In JavaScript a function may be declared as:
         myFunction(10, 20);
         ```
 
-### Function and Arrow Function comparison
+#### Function and Arrow Function comparison
 
 - When using function the internal function shall have it's own scope. So, to refer the parent scope may be necessary to create a reference to parent's this or pass it as parameter.
     ```javascript
@@ -99,3 +99,16 @@ In JavaScript a function may be declared as:
     }
     ```
             
+#### High & First order Functions
+
+A High Order function is a function that thakes another function as an argument or returns a function. Otherwise, it's a First Order function (that takes/returns other values different than functions).
+
+The High Order functions are commomly used in functional approaches. There are a few native functions that is already from high order. Some examples are: ```map()```, ```filter()```, ```reduce()```, ```some()``` etc.
+
+```javascript
+    // Map Example
+    [1, 2, 3, 4, 5].map(value => value * 2);
+    
+    // Filter example
+    [1, 2, 3, 4, 5].map(value => !(value % 2));
+```
