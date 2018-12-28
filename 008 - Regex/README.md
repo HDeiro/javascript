@@ -67,3 +67,5 @@ It's possible to apply quantifiers/delimiters in order to reduce the regular exp
 | ^n | Matches "n" at the beginning of it
 | ?=n | Matches anything that is followed by "n"
 | ?!n | Matches anything that is not followed by "n"
+| a(?=b) | Matches a if it preceeds b (lookahead operator)
+| (?<=a)b | Matches b if it cames after an a (lookbehind operator)
