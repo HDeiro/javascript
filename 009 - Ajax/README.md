@@ -37,3 +37,5 @@ An example of a cross-origin request is when ```https://requiror.com``` sends a 
 A very used approach defines a preflight request that uses a "OPTIONS" verb to send a "pre-request" to the endpoint and fetch the access control options, as show in next image.
 
 ![CORS](https://github.com/HDeiro/javascript/blob/v2/009%20-%20Ajax/assets/img/cors.png?raw=true)
+
+This image is originally from [MDN Docs - Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
