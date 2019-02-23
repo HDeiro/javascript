@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "name": "Hugo Deiró",
+    "isEnabled": true,
+    "contacts": [
+        {
+            "label": "Github",
+            "value": "github.com/hdeiro"
+        },
+        {
+            "label": "Facebook",
+            "value": "facebook.com/hdeiro"
+        }
+    ]
+}
