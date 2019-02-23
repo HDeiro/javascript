@@ -26,9 +26,3 @@ awaitRandom().then(_ => {
     console.log("Received from last promise: ", payload);
     return 3;
 });
-
-// Start (has error)
-awaitRandom()
-    .then(_ => { throw "Error" })
-    .then(_ => console.log("Everything is ok"))
-    .catch(_ => console.log("There was a problem"));
