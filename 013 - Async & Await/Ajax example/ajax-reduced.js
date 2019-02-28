@@ -1,0 +1,1 @@
+(async _ => console.log(await (await fetch("data.json")).json()))();
