@@ -7,7 +7,7 @@ A string is a primitive type in JavaScript and it can be defined in three possib
 - Simple Quote String
 
 ```javascript
-let string = 'String example n° 1"
+let string = 'String example n° 1'
 ```
 
 - Double Quote String
@@ -19,6 +19,6 @@ let string = "String example n° 2"
 - Interpolated String
 
 ```javascript
-// This row results the same as "String example n°" + 3
+// This row results the same as "String example n° " + 3
 let string = `String example n° ${3}`
 ```

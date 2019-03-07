@@ -4,7 +4,7 @@ let sleep = async ms => new Promise(resolve => setTimeout(_ => resolve(`Waited f
 let awaitRandom = async _ => {
     let min = 0;
     let max = 5;
-    //Generate Random number between 5 - 10
+    //Generate Random number between 0 - 5
     let rand = Math.floor(Math.random() * (max - min + 1) + min);
     let awaitTime = rand * 1000;
     // Create promise

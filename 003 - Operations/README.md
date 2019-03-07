@@ -64,7 +64,7 @@ JavaScript support the basic mathematic operators like:
     ```javascript
     let a = 10;
     a += 10;
-    // 0
+    // 20
     ```
     
 - Decrement with
@@ -81,7 +81,7 @@ JavaScript support the basic mathematic operators like:
     // 100
     ```
     
-- Increment with
+- Divide with
     ```javascript
     let a = 10;
     a /= 10;

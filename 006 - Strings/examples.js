@@ -69,7 +69,7 @@ console.log("Function search (False case) = ", string.search(/script/));
 
 // Slices the string, removed part between position passed as parameter
 console.log("\nFunction slice (initial) = ", string.slice(11));
-console.log("Function slice (final) = ", string.slice(3, 6));
+console.log("Function slice (inicial, final) = ", string.slice(3, 6));
 
 // Removes all whitespaces from start and end of string
 console.log("\nFunction trim = ", string.trim());

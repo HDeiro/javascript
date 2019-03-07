@@ -110,5 +110,5 @@ The High Order functions are commomly used in functional approaches. There are a
     [1, 2, 3, 4, 5].map(value => value * 2);
     
     // Filter example
-    [1, 2, 3, 4, 5].map(value => !(value % 2));
+    [1, 2, 3, 4, 5].filter(value => !(value % 2));
 ```

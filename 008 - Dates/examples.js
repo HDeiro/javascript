@@ -8,7 +8,7 @@ console.log("\nStatic function now = ", Date.now());
 
 // Get parts of date
 console.log("\nFunction getFullYear = ", date.getFullYear()); //Get Year is broken, because it has been developed thinking years until 1999. After that, it keeps increasing the year (for year 2000, it returns 100)
-console.log("Function getMonth = ", date.getFullYear()); // From 0 to 11
+console.log("Function getMonth = ", date.getMonth()); // From 0 to 11
 console.log("Function getDay = ", date.getDay()); // Day of the week (0, from sunday)
 console.log("Function getDate = ", date.getDate());
 console.log("Function getHours = ", date.getHours());
@@ -34,3 +34,4 @@ let options = {
     timeZoneName: "long"
 };
 console.log("Function toLocaleString = ", date.toLocaleString("pt-BR", options));
+console.log(date);
