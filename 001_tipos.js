@@ -1,5 +1,5 @@
 /*
-    JavaScript é uma linguagem que possui tipagem dinâmica
+     JavaScript é uma linguagem que possui tipagem dinâmica
     e, portanto, suas variáveis tem tipos definidos a partir
     do valor que referencia.
 
