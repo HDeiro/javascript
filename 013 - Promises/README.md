@@ -13,7 +13,7 @@ A Promise will **always** be in one of the following states:
 - Rejected: Finished with failure.
 - Setled: Executed, with success or failure.
 
-![Promise schema](https://github.com/HDeiro/javascript/blob/v2/012%20-%20Promises/assets/img/Promises.jpg?raw=true)
+![Promise schema](https://github.com/HDeiro/javascript/blob/master/013%20-%20Promises/assets/img/Promises.jpg?raw=true)
 
 #### Promise API
 

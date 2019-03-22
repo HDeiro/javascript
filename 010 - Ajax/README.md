@@ -4,7 +4,7 @@ Ajax is the acronym of **Asynchronous JavaScript and XML**, it refers to a set o
 
 #### How does things works without Ajax?
 
-![Without Ajax](https://github.com/HDeiro/javascript/blob/v2/009%20-%20Ajax/assets/img/non-ajax.jpg?raw=true)
+![Without Ajax](https://github.com/HDeiro/javascript/blob/master/010%20-%20Ajax/assets/img/non-ajax.jpg?raw=true)
 
 Without Ajax, as shown in the picture, when an HTTP-Request is sent to the back-end, it's neessary to wait for this request to be processed an returned with the requested data. 
 
@@ -12,7 +12,7 @@ The main problem with this approach is that it blocks the process because of ext
 
 #### How does things work with Ajax?
 
-![With Ajax](https://github.com/HDeiro/javascript/blob/v2/009%20-%20Ajax/assets/img/ajax.jpg?raw=true)
+![With Ajax](https://github.com/HDeiro/javascript/blob/master/010%20-%20Ajax/assets/img/ajax.jpg?raw=true)
 
 When we use Ajax the process shown before changes a little bit, as you can see in the image above.
 
@@ -36,6 +36,6 @@ An example of a cross-origin request is when ```https://requiror.com``` sends a 
 
 A very used approach defines a preflight request that uses a "OPTIONS" verb to send a "pre-request" to the endpoint and fetch the access control options, as show in next image.
 
-![CORS](https://github.com/HDeiro/javascript/blob/v2/009%20-%20Ajax/assets/img/cors.png?raw=true)
+![CORS](https://github.com/HDeiro/javascript/blob/master/010%20-%20Ajax/assets/img/cors.png?raw=true)
 
 This image is originally from [MDN Docs - Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
