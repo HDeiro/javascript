@@ -3,33 +3,33 @@ let output = null;
 
 // [Mutable] Pushes a value to the end of the array
 output = array.push(6, 7, 8, "String");
-console.log("Function Push = ", output, array); 
+console.log("[Mutable] Function Push = ", output, array); 
 
 // [Mutable] Remove the last index of the array
 output = array.pop();
-console.log("Function Pop = ", output, array);
+console.log("[Mutable] Function Pop = ", output, array);
 
 // [Mutable] Unshift all values to add a new one on the start of the array
 output = array.unshift("String", -1, 0);
-console.log("\nFunction Unshift = ", output, array); 
+console.log("\n[Mutable] Function Unshift = ", output, array); 
 
 // [Mutable] Shift all values to remove one from the beginning of the array
 output = array.shift();
-console.log("Function shift = ", output, array); 
+console.log("[Mutable] Function shift = ", output, array); 
 
 // [Mutable] Splice the array
 output = array.splice(0, 1); //Remove the first element
-console.log("\nFunction splice (to remove element) = ", output, array);
+console.log("\n[Mutable] Function splice (to remove element) = ", output, array);
 
 output = array.splice(3, 0, "Added Element 1", "Added Element 2"); //Does not remove any element, but inject some new values in that position
-console.log("Function splice (to add element) = ", output, array);
+console.log("[Mutable] Function splice (to add element) = ", output, array);
 
 output = array.splice(3, 2, 100); //Remove 2 elements and inject a new value
-console.log("Function splice (to remove and add element) = ", output, array);
+console.log("[Mutable] Function splice (to remove and add element) = ", output, array);
 
 // [Mutable] Reversing the array
 output = array.reverse();
-console.log("\nFunction reverse = ", output, array);
+console.log("\n[Mutable] Function reverse = ", output, array);
 
 // [Immutable] Parsing the array to String
 output = array.toString();
@@ -110,15 +110,14 @@ console.log("Function fill (all, from)", output, array);
 output = array.fill(5, 5, 8);
 console.log("Function fill (all, from, to)", output, array);
 
-// [ES10] Flatten an array
+// [Immutable][ES10] Flatten an array
 output = [array, 1, 2, 3, [4, 5, [6, 8, [9, 10, [11, 12]]]]].flat();
 console.log("Function flat", array, output);
 
-// [ES10] Inifnity flatten an array
-output = [array, 1, 2, 3, [4, 5, [6, 8, [9, 10, [11, 12]]]]].flat(Infinity);
+output = [array, 1, 2, 3, [4, 5, [6, 8, [9, 10, [11, 12]]]]].flat(Infinity); //All recursive possibilities
 console.log("Function flat", array, output);
 
-// [ES10] Flat Map (Maps an array then flatten it)
+// [Immutable][ES10] Flat Map (Maps an array then flatten it)
 array = [1, 2, 3, 4];
 output = array.map(item => [`Item ${item}`, item * 2]);
 console.log("Functionality simple map", array, output);
