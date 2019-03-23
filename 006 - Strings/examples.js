@@ -85,4 +85,11 @@ console.log("\nFunction padEnd [")
     console.log("10333".padEnd(10, "0"));
 console.log("]");
 
+// Trimming strings (EcmaScript 10)
+output = `       ${string}       `.trimEnd();
+console.log("Function trimEnd = ", output);
+
+output = `       ${string}       `.trimStart();
+console.log("Function trimStart = ", output);
+
 console.log("\nFinishing String = ", string);
