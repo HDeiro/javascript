@@ -109,3 +109,18 @@ console.log("Function fill (all, from)", output, array);
 
 output = array.fill(5, 5, 8);
 console.log("Function fill (all, from, to)", output, array);
+
+// [ES10] Flatten an array
+output = [array, 1, 2, 3, [4, 5, [6, 8, [9, 10, [11, 12]]]]].flat();
+console.log("Function flat", array, output);
+
+// [ES10] Inifnity flatten an array
+output = [array, 1, 2, 3, [4, 5, [6, 8, [9, 10, [11, 12]]]]].flat(Infinity);
+console.log("Function flat", array, output);
+
+// [ES10] Flat Map (Maps an array then flatten it)
+array = [1, 2, 3, 4];
+output = array.map(item => [`Item ${item}`, item * 2]);
+console.log("Functionality simple map", array, output);
+output = array.flatMap(item => [`Item ${item}`, item * 2]);
+console.log("Functionality flatMap", array, output);
