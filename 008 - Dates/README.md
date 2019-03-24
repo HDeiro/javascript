@@ -4,7 +4,7 @@ JavaScript dates follows two date-patterns:
 
 - RFC 2822: /WeekDay Month Day Year Hours:Minutes:Seconds Timezone/ 
     ```javascript
-    Sat Mar 11 2017 23:49:32 GMD-0300
+    Sat Mar 11 2017 23:49:32 GMT-0300
     ```
 
 - ISO 8601: /Year-Month-DayTimezoneTimeZ/
