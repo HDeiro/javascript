@@ -95,10 +95,9 @@ output = array.sort((a, b) => {
         return 1;  // b came first
     else if (a > b)
         return -1; // a came first
-    else
-        return 0;  // Keep the order
+    return 0;  // Keep the order
 });
-console.log("[Iterated] Function sort (Using comparator)", output, array); // Based on Unicode
+console.log("[Iterated] Function sort (Using comparator)", output, array);
 
 // [Mutable] fill the values of the array
 output = array.fill(10);
